@@ -29,3 +29,18 @@ def factorial(n):
 
 factorial(3)
 
+# fabionacci example
+def fibonacci(n):
+    # base case
+    if n <= 0:
+        return 0
+    elif n == 1:
+        return 1
+    print(f"Calculating fibonacci({n})")
+    result = fibonacci(n - 1) + fibonacci(n - 2)
+    print(f"fibonacci({n}) = {result}")
+    return result
+
+fibonacci(4)
+# In this example, each call to factorial or fibonacci creates a new node in the recursive tree.
+# The tree branches out with each recursive call until the base case is reached.
