@@ -106,6 +106,5 @@ for i in range(n):  # O(n)
 #! Note:
 # The actual time taken by an algorithm can depend on various factors such as hardware, programming language, and compiler optimizations. Time complexity provides a high-level understanding of an algorithm's efficiency, but real-world performance may vary.
 
-#! Space Complexity :
-
-# Space complexity is a computational complexity that describes the amount of memory space an algorithm uses as a function of the length of the input. It provides an estimate of the memory usage required by an algorithm to complete its execution.
+# from higher to lower Time Complexity:
+# O(n!) > O(2^n) > O(n^3) > O (n^2) > O(n log n) > O(n) > O(log n) > O(1)
