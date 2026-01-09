@@ -9,6 +9,8 @@
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status">
   <img src="https://img.shields.io/badge/License-MIT-orange?style=for-the-badge" alt="License">
   <img src="https://img.shields.io/badge/Difficulty-Beginner%20to%20Advanced-red?style=for-the-badge" alt="Difficulty">
+  <img src="https://img.shields.io/badge/Topics-7%2B%20Modules-purple?style=for-the-badge" alt="Topics">
+  <img src="https://img.shields.io/badge/Last%20Updated-Jan%202026-yellowgreen?style=for-the-badge" alt="Last Updated">
 </p>
 
 ### 📌 A Comprehensive Learning Path to Master DSA from Zero to Hero
@@ -35,69 +37,99 @@ This is your **complete learning resource** for mastering Data Structures and Al
 
 ---
 
+## � Table of Contents
+
+- [About This Repository](#-about-this-repository)
+- [What's Inside?](#-whats-inside)
+- [Key Learning Outcomes](#-key-learning-outcomes)
+- [Dedicated LeetCode Repository](#-dedicated-leetcode-repository)
+- [Getting Started](#️-getting-started)
+- [Learning Path](#-learning-path)
+- [Topics Roadmap](#-topics-roadmap)
+- [Contributing](#-contributing)
+- [Connect With Me](#-connect-with-me)
+
+---
+
 ## 📚 What's Inside?
 
-### � **001 - Python Basics & Fundamentals**
-
-Compiler vs Interpreter concepts  
-Variables, Keywords, and Identifiers  
-Comments and Documentation  
-Operators and Expressions  
-Data Types and Type Conversion  
-Input/Output Handling  
-Functions and Scope Management  
-Control Flow (if-else statements)  
-Loops (for, while, nested loops)  
-🎯 **Practice Problems**: FizzBuzz Challenge
-
-### 🔹 **002 - Time and Space Complexity**
-
-Time Complexity Analysis  
-Space Complexity Analysis  
-Big-O Notation & Asymptotic Analysis  
-Optimization Techniques
-
-### 🔹 **003 - Recursion & Advanced Concepts**
-
-Recursion vs Iteration  
-Understanding Recursive Functions  
-Recursive Stack and Memory Management  
-Recursive Tree Visualization  
-Backtracking Problems
-
-### 🔹 **Coming Soon...**
-
-Arrays and Lists  
-Linked Lists  
-Stacks and Queues  
-Trees and Graphs  
-Sorting Algorithms  
-Dynamic Programming  
-And Much More! 🎉
+<table align="center">
+  <tr>
+    <th>Module</th>
+    <th>Topics Covered</th>
+  </tr>
+  <tr>
+    <td><b>📘 001 - Python Basics</b></td>
+    <td>Variables, Data Types, Operators, Functions, Control Flow, Loops, I/O</td>
+  </tr>
+  <tr>
+    <td><b>⏱️ 002 - Complexity Analysis</b></td>
+    <td>Time Complexity, Space Complexity, Big-O Notation</td>
+  </tr>
+  <tr>
+    <td><b>🔄 003 - Recursion</b></td>
+    <td>Recursive Functions, Stack, Tree, Backtracking</td>
+  </tr>
+  <tr>
+    <td><b>📊 004 - Arrays</b></td>
+    <td>Array Basics, Operations, NumPy, Algorithms</td>
+  </tr>
+  <tr>
+    <td><b>🔗 005 - Singly Linked List</b></td>
+    <td>Implementation, Insertion, Deletion, Traversal</td>
+  </tr>
+  <tr>
+    <td><b>🔗 006 - Doubly Linked List</b></td>
+    <td>Structure, Bidirectional Traversal, Operations</td>
+  </tr>
+  <tr>
+    <td><b>🔄 007 - Circular Linked List</b></td>
+    <td>Circular Singly & Doubly Lists, Applications</td>
+  </tr>
+  <tr>
+    <td><b>🚀 Coming Soon</b></td>
+    <td>Stacks, Queues, Trees, Graphs, Sorting, Dynamic Programming</td>
+  </tr>
+</table>
 
 ---
 
 ## 💡 Key Learning Outcomes
 
-<p align="center">
-
-✅ **Python Fundamentals** → Master syntax, data types, and control flow
-
-✅ **Complexity Analysis** → Optimize code for time and space
-
-✅ **Recursion Mastery** → Understand recursive problem-solving
-
-✅ **Data Structures** → Arrays, Lists, Trees, Graphs, and more
-
-✅ **Algorithms** → Sorting, Searching, and Advanced Techniques
-
-✅ **Dynamic Programming** → Solve complex optimization problems
-
-✅ **LeetCode Solutions** → Real interview-style problems with explanations
-
-✅ **Interview Ready** → Ace your coding interviews with confidence
-
-</p>
+<table align="center">
+  <tr>
+    <td align="center">✅ <b>Python Fundamentals</b></td>
+    <td>Master syntax, data types, and control flow</td>
+  </tr>
+  <tr>
+    <td align="center">⏱️ <b>Complexity Analysis</b></td>
+    <td>Optimize code for time and space efficiency</td>
+  </tr>
+  <tr>
+    <td align="center">🔄 <b>Recursion Mastery</b></td>
+    <td>Understand recursive problem-solving techniques</td>
+  </tr>
+  <tr>
+    <td align="center">📊 <b>Data Structures</b></td>
+    <td>Arrays, Linked Lists, Trees, Graphs, and more</td>
+  </tr>
+  <tr>
+    <td align="center">🧮 <b>Algorithms</b></td>
+    <td>Sorting, Searching, and Advanced Techniques</td>
+  </tr>
+  <tr>
+    <td align="center">💎 <b>Dynamic Programming</b></td>
+    <td>Solve complex optimization problems</td>
+  </tr>
+  <tr>
+    <td align="center">🎯 <b>LeetCode Solutions</b></td>
+    <td>Real interview-style problems with explanations</td>
+  </tr>
+  <tr>
+    <td align="center">🚀 <b>Interview Ready</b></td>
+    <td>Ace your coding interviews with confidence</td>
+  </tr>
+</table>
 
 ---
 
@@ -136,14 +168,21 @@ For **specialized LeetCode problem solutions**, visit our dedicated repository:
 git clone https://github.com/ggauravky/DSA-with-Python.git
 cd DSA-with-Python
 
-# Start learning
-# 1. Begin with 001 Basics
-# 2. Progress to 002 Time and Space Complexity
-# 3. Move to 003 Recursion
-# 4. And continue with upcoming topics
+# Start learning - Follow this sequence:
+# Step 1: Master Python Basics
+python "001 Basics/000 Compiler vs Interpreter.py"
 
-# Run any Python file
-python "001 Basics/001 Variables and Keywords.py"
+# Step 2: Understand Complexity
+python "002 Time and Space Complexity/001 timeComplexity.py"
+
+# Step 3: Learn Recursion
+python "003 Recursion/002 Recursion.py"
+
+# Step 4: Explore Data Structures
+python "004 Arrays/001 Basics of Arrays.py"
+python "005 Singly Linked List/001 SSL.py"
+
+# Continue with more advanced topics as you progress!
 ```
 
 ---
@@ -152,24 +191,22 @@ python "001 Basics/001 Variables and Keywords.py"
 
 <table align="center">
   <tr>
-    <td align="center"><b>Phase 1</b></td>
-    <td align="center"><b>Phase 2</b></td>
-    <td align="center"><b>Phase 3</b></td>
+    <td align="center"><b>🔰 Phase 1</b></td>
+    <td align="center"><b>📈 Phase 2</b></td>
+    <td align="center"><b>🔄 Phase 3</b></td>
+    <td align="center"><b>📊 Phase 4</b></td>
   </tr>
   <tr>
-    <td>📚 Basics & Fundamentals</td>
-    <td>⏱️ Complexity Analysis</td>
-    <td>🔄 Recursion</td>
+    <td align="center">Basics & Fundamentals</td>
+    <td align="center">Complexity Analysis</td>
+    <td align="center">Recursion</td>
+    <td align="center">Data Structures</td>
   </tr>
   <tr>
-    <td>Variables, Data Types</td>
-    <td>Big-O Notation</td>
-    <td>Stack & Tree</td>
-  </tr>
-  <tr>
-    <td>Control Flow, Loops</td>
-    <td>Time/Space</td>
-    <td>Backtracking</td>
+    <td>✅ Variables, Data Types<br>✅ Control Flow, Loops<br>✅ Functions</td>
+    <td>✅ Big-O Notation<br>✅ Time Complexity<br>✅ Space Complexity</td>
+    <td>✅ Recursive Functions<br>✅ Stack & Tree<br>✅ Backtracking</td>
+    <td>✅ Arrays<br>✅ Linked Lists<br>🚧 More Coming...</td>
   </tr>
 </table>
 
@@ -207,10 +244,13 @@ python "001 Basics/001 Variables and Keywords.py"
 
 <div align="center">
 
-📚 **Modules**: Continuously expanding  
-💻 **Code Examples**: Production-quality implementations  
-📝 **Documentation**: Comprehensive explanations  
-🎯 **LeetCode Problems**: Hundreds of solutions
+| 📊 Metric                | 🎯 Status             |
+| ------------------------ | --------------------- |
+| 📚 **Completed Modules** | 7+ Topics             |
+| 💻 **Code Files**        | 20+ Examples          |
+| 📝 **Documentation**     | Comprehensive         |
+| 🔄 **Current Focus**     | Arrays & Linked Lists |
+| 🚀 **Status**            | Actively Maintained   |
 
 </div>
 
@@ -218,13 +258,30 @@ python "001 Basics/001 Variables and Keywords.py"
 
 ## 🤝 Contributing
 
-We love contributions! You can help by:
+<div align="center">
 
-✨ Adding new algorithms or data structures  
-🐛 Reporting bugs and issues  
-📚 Improving documentation  
-💡 Suggesting optimizations  
-🎯 Adding more LeetCode solutions
+### We Love Contributions! 🌟
+
+</div>
+
+You can help improve this repository by:
+
+| 💡 How to Contribute | 📝 Description                              |
+| -------------------- | ------------------------------------------- |
+| ✨ **Add Content**   | Implement new algorithms or data structures |
+| 🐛 **Report Bugs**   | Found an issue? Let us know!                |
+| 📚 **Improve Docs**  | Enhance explanations and comments           |
+| 💻 **Optimize Code** | Suggest better implementations              |
+| 🎯 **Add Problems**  | Share interesting coding challenges         |
+| 🔍 **Review Code**   | Help maintain code quality                  |
+
+**How to Contribute:**
+
+1. 🍴 Fork the repository
+2. 🔨 Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. 💾 Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. 📤 Push to the branch (`git push origin feature/AmazingFeature`)
+5. 🎉 Open a Pull Request
 
 Your contributions help build a better learning resource for everyone! 🙌
 
@@ -284,7 +341,11 @@ Your support motivates me to create more quality content! 🚀
 
 ---
 
-_Last Updated: January 2026_  
+**Made with ❤️ by Gaurav Kumar**
+
+_Last Updated: January 9, 2026_  
 _Keep learning, keep coding! 🔥_
+
+⭐ **Star this repo if you found it helpful!** ⭐
 
 </div>
