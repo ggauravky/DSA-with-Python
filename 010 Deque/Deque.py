@@ -35,9 +35,7 @@ class Deque:
     def peekEnd(self):
         if self.is_empty():
             raise IndexError("peekEnd from empty deque")
-        return self.items[-1]
-
-dq=Deque()
+        return self.items[-1] dq=Deque()
 dq.insertAtEnd(10)
 dq.insertAtFront(20)
 print(dq.removeFromFront())  # Output: 20
