@@ -2,7 +2,7 @@
 
 # /in table form
 
-# | Aspect               | Loop                              | Recursion                         |
+# !| Aspect               | Loop                              | Recursion                         |
 # |----------------------|-----------------------------------|-----------------------------------|  
 # | Definition           | A control flow statement that     | A function that calls itself to   |
 # |                      | repeatedly executes a block of    | solve a problem by breaking it    |

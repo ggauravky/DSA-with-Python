@@ -45,3 +45,10 @@ def factorial(n):
     return n*factorial(n-1)
 a=factorial(5)
 # print(a)
+
+def sumofnum(x):
+    if x==0:
+        return 0
+    return x+sumofnum(x-1)
+b=sumofnum(5)
+print(b) 
