@@ -123,3 +123,43 @@ class Solution:
             if slow == fast:
                 return True
         return False
+
+# 142. Linked List Cycle II
+
+    
+    
+class Solution:
+    def detectCycle(self, head: Optional[ListNode]) -> bool:
+        slow = head
+        fast = head
+        
+        while fast != None and fast.next != None:
+            slow = slow.next
+            fast = fast.next.next
+
+            hashCycle=False
+            
+            if slow == fast:
+                hashCycle=True
+                break
+
+        if not hashCycle:
+            return None
+        
+        l=0
+        while slow.next != fast.next:
+            slow = slow.next
+            l+=1
+        l+=1
+        slow = slow.next
+
+        slow = head
+        fast = head
+        
+        for i in range(l):
+            fast = fast.next
+        while slow != fast:
+            slow = slow.next
+            fast = fast.next
+        
+        return slow 
