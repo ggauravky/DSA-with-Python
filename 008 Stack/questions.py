@@ -66,9 +66,21 @@ class MyQueue:
         return len(self.stack1) == 0
 
 
-# Your MyQueue object will be instantiated and called as such:
-# obj = MyQueue()
-# obj.push(x)
-# param_2 = obj.pop()
-# param_3 = obj.peek()
-# param_4 = obj.empty()
+
+# 20. Valid Parentheses
+
+
+class Solution:
+    def isValid(self, s: str) -> bool:
+        stack = []
+        mapping = {')': '(', '}': '{', ']': '['}
+
+        for char in s:
+            if char in mapping:
+                top_element = stack.pop() if stack else '#'
+                if mapping[char] != top_element:
+                    return False
+            else:
+                stack.append(char)
+
+        return not stack
