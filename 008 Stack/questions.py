@@ -84,3 +84,18 @@ class Solution:
                 stack.append(char)
 
         return not stack
+
+# 844. Backspace String Compare
+
+class Solution:
+    def backspaceCompare(self, s: str, t: str) -> bool:
+        def build(string):
+            result = []
+            for char in string:
+                if char != '#':
+                    result.append(char)
+                elif result:
+                    result.pop()
+            return ''.join(result)
+        
+        return build(s) == build(t)
