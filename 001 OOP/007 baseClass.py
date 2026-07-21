@@ -18,3 +18,8 @@ class gingerchai(chai):
     def __init__(self, type_, strength, spice_level):
         super().__init__(type_, strength)
         self.spice_level = spice_level
+
+cd=gingerchai("ginger", "strong", "high")
+print(cd.type_)
+print(cd.strength)
+print(cd.spice_level)
